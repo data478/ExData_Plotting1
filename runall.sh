@@ -1,8 +1,9 @@
-rm -f *.png plot[1234].Rout
+# generate all plots
 
-R CMD BATCH plot1.R
-R CMD BATCH plot2.R
-R CMD BATCH plot3.R
-R CMD BATCH plot4.R
+rm -f plot[1234].png plot[1234].Rout
+
+for script in plot[1234].R; do
+	R CMD BATCH $script
+done
 
 ls -l *.png
