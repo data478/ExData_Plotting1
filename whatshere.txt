@@ -1,0 +1,11 @@
+plot*.R scripts here are drivers organized as follows:
+	- call data loading
+	- set up graphics device and define output file
+	- call plotting routine(s)
+
+dataset is in subdirectory 'data'
+
+data loading and plotting implemented as separate R scripts in subdirectory
+'scripts', that can be tested (almost) independently of png generation
+
+you can regenerate the .png files by running the runall.sh script
