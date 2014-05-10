@@ -3,9 +3,16 @@ plot*.R scripts here are drivers organized as follows:
 	- set up graphics device and define output file
 	- call plotting routine(s)
 
-dataset is in subdirectory 'data'
+some plots, such as Global Active Power and Energy sub metering are produced using
+exactly the same code for both the individual plot and the multi-plot (plot4).
+
+this is the reason the plots differ in minor ways from the reference plots.  i
+could have reproduced the reference plots exactly, but i find this to be more
+'quality'.
+
+dataset is in subdirectory 'data'.
 
 data loading and plotting implemented as separate R scripts in subdirectory
-'scripts', that can be tested (almost) independently of png generation
+'scripts', that can be tested (almost) independently of png generation.
 
-you can regenerate the .png files by running the runall.sh script
+you can regenerate the .png files by running the runall.sh script.
