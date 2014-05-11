@@ -8,7 +8,7 @@ exactly the same code for both the individual plot and the multi-plot (plot4).
 
 this is the reason the plots differ in minor ways from the reference plots.  i
 could have reproduced the reference plots exactly, but i find this to be more
-consistent and better from software engineering aspect.
+consistent and better from the software engineering aspect.
 
 dataset is in subdirectory 'data'.
 
